@@ -1,0 +1,26 @@
+{
+    "name": "2nd",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "dht11": "github:zhuning239/dht11#96c89a333a0bda6f371637fa331265f6671e4aea",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
